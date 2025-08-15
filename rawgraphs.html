@@ -3,21 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
-    <title>Dia2</title>
+    <title>Visualizacion</title>
 </head>
 <body>
-    <h1>Ejemplo de gráfico con FLOURISH</h1>
-    <div class='mb-2 mt-2'>
-        <h1>Exportación de Litio en Argentina</h1>
-      </div>
-      <div class="p-3 mb-2 bg-success-subtle text-success-emphasis"> 
-        <h2 class="mb-2">Evolución por país destino (2004 - 2024)</h2>
-        <h4>en millones de dólares</h4>
-        <div class="d-flex justify-content-center">
-          <img src="barra.png" class="img-fluid" alt="gráfico bumpchart">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary mb-3">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Visualización de datos - Javier Kosaka</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Contenido
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="rawgraphs.html">clase 1 : Rawgraphs</a></li>
+                  <li><a class="dropdown-item" href="flourish.html">clase 2 : Flourish</a></li>
+                  <li><a class="dropdown-item" href="datawrapper.html">clase 3 : Datawrapper</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">TP</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    <a href="index.html">volver a principal</a>
+      </nav>
+      <h1 class="mt-5">Ejemplo de gráfico con Rawgraphs</h1>
+      <div class="mt-5">
+        </div>
+        <div class="p-3 mb-2 bg-success-subtle text-success-emphasis"> 
+          <h2 class="mb-3 fw-bold">Exportación de Litio en Argentina</h1>
+          <h3 class="mb-2">Evolución por país destino (2004 - 2024)</h2>
+          <h4>en millones de dólares</h4>
+          <div class="d-flex justify-content-center">
+            <img src="img/barra.png" class="img-fluid" alt="gráfico bumpchart">
+          </div>
+          <p class="mt-3 text-body-tertiary">Fuente: Ministerio de Economía. Secretaría de Minería. Subsecretaría de Desarrollo Minero</p>
+        </div>
+      <button type="button" class="btn btn-secondary mb-5" href="index.html">Volver a principal</button>
+      <footer>
+      </footer>
 </body>
 </html>
